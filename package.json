@@ -1,12 +1,13 @@
 {
   "name": "special-card",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "private": false,
   "devDependencies": {
     "@babel/cli": "^7.23.0",
     "@babel/core": "^7.23.2",
     "@babel/preset-react": "^7.22.15",
     "babel-cli": "^6.26.0",
+    "babel-plugin-inline-import": "^3.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1"

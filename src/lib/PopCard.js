@@ -1,5 +1,5 @@
 import React from "react";
-import "./PopCard.css";
+import style from "./PopCard.module.css";
 
 const PopCard = ({
                      backgroundImage = "/bg.png",
@@ -9,15 +9,15 @@ const PopCard = ({
                      height = 300,
                      width
                  }) => (<>
-        <a href={link} target="_blank">
-            <div className="popCard" style={{height: height, width: width ?? (height / 1.5)}}>
-                <div className="wrapper">
-                    <img src={backgroundImage} className="cover-image" aria-disabled={true}/>
-                </div>
-                <img src={titleImage} className="title" aria-disabled={true}/>
-                <img src={hoverImage} className="character" aria-disabled={true}/>
+    <a href={link} target="_blank">
+        <div className={style.popCard} style={{height: height, width: width ?? (height / 1.5)}}>
+            <div className={style.wrapper}>
+                <img src={backgroundImage} className={style.coverImage} aria-disabled={true}/>
             </div>
-        </a>
-    </>);
+            <img src={titleImage} className={style.title} aria-disabled={true}/>
+            <img src={hoverImage} className={style.character} aria-disabled={true}/>
+        </div>
+    </a>
+</>);
 
 export default PopCard;
