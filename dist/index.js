@@ -1,3 +1,2 @@
 import PopCard from "./PopCard";
-
-export { PopCard};
+export { PopCard };

@@ -1,12 +1,11 @@
 import React from 'react';
-import { render } from "react-dom";
-import { TextInput } from "./lib";
+import {render} from "react-dom";
+import {TextInput, PopCard} from "./lib";
 
 const App = () => (
-    <div style={{ width: 640, margin: "15px auto" }}>
-        <h1>Hello React</h1>
-        <TextInput label="Email Address" placeholder="name@example.com" />
-    </div>
-);
+    <div style={{width: "100vw", height: "100vh", display: "flex", justifyContent: "center", alignItems: "center"}}>
+        {/*<TextInput label="Email Address" placeholder="name@example.com"/>*/}
+        <PopCard height={600}/>
+    </div>);
 
-render(<App />, document.getElementById("root"));
+render(<App/>, document.getElementById("root"));
