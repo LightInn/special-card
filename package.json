@@ -1,6 +1,6 @@
 {
   "name": "special-card",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "private": false,
   "devDependencies": {
     "@babel/cli": "^7.23.0",
@@ -31,6 +31,15 @@
     "url": "https://github.com/LightInn/special-card"
   },
   "license": "ISC",
+  "description": "Two dynamic card component for React",
+  "keywords": [
+    "react",
+    "card",
+    "dynamic-card",
+    "react-component",
+    "special-card",
+    "3D-card"
+  ],
   "eslintConfig": {
     "extends": [
       "react-app",
