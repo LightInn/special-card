@@ -1,5 +1,17 @@
 # special-card
 
+⚡ *Des composants React élégants pour afficher des cartes avec des effets visuels dynamiques et interactifs.* ⚡
+
+[![npm version](https://img.shields.io/npm/v/special-card.svg?style=flat)](https://www.npmjs.com/package/special-card)
+[![npm downloads](https://img.shields.io/npm/dm/special-card.svg?style=flat)](https://www.npmjs.com/package/special-card)
+[![Build Status](https://img.shields.io/travis/LightInn/special-card/master.svg?style=flat)](https://travis-ci.org/LightInn/special-card)
+[![license](https://img.shields.io/github/license/LightInn/special-card.svg?style=flat)](https://github.com/LightInn/special-card/blob/master/LICENSE) 
+![Special Card Holo](https://user-images.githubusercontent.com/holocard-demo.gif "HoloCard Effet")
+![Special Card Pop](https://user-images.githubusercontent.com/popcard-demo.gif "PopCard Effet")
+
+
+## description
+
 La bibliothèque `special-card` offre une touche visuelle inédite à vos projets React.js. Avec ses composants `HoloCard` et `PopCard`, créez des cartes interactives stylisées qui ne manqueront pas d'engager vos utilisateurs.
 
 ## Installation
