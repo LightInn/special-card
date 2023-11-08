@@ -9,8 +9,8 @@ const PopCard = ({
                      height = 300,
                      width
                  }) => (<>
-    <a href={link} target="_blank">
-        <div className={style.popCard} style={{height: height, width: width ?? (height / 1.5)}}>
+    <a href={link} target="_blank" className={style.link} style={{height: height, width: width ?? (height / 1.5)}}>
+        <div className={style.popCard} >
             <div className={style.wrapper}>
                 <img src={backgroundImage} className={style.coverImage} aria-disabled={true}/>
             </div>
