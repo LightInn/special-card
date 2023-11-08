@@ -4,7 +4,7 @@
 [![Build Status](https://img.shields.io/travis/LightInn/special-card/master.svg?style=flat)](https://travis-ci.org/LightInn/special-card)
 [![npm version](https://img.shields.io/npm/v/special-card.svg?style=flat)](https://www.npmjs.com/package/special-card)
 [![npm downloads](https://img.shields.io/npm/dm/special-card.svg?style=flat)](https://www.npmjs.com/package/special-card)
-[![license](https://img.shields.io/github/license/LightInn/special-card.svg?style=flat)](https://github.com/LightInn/special-card/blob/master/LICENSE) 
+[![license](https://img.shields.io/github/license/LightInn/special-card.svg?style=flat)](https://github.com/LightInn/special-card/blob/master/LICENSE.md) 
 ![Special Card Holo](/public/Capture%20vidéo%20du%2008-11-2023%2014:30:12.webm "HoloCard Effet")
 ![Special Card Pop](/public/Capture%20vidéo%20du%2008-11-2023%2014:34:15.webm "PopCard Effet")
 
