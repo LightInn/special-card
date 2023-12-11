@@ -1,21 +1,21 @@
 # Special Card
 
-⚡ *Des composants React élégants pour afficher des cartes avec des effets visuels dynamiques et interactifs.* ⚡
+⚡ *Elegant React components for displaying cards with dynamic and interactive visual effects.* ⚡
 [![Build Status](https://img.shields.io/travis/LightInn/special-card/master.svg?style=flat)](https://travis-ci.org/LightInn/special-card)
 [![npm version](https://img.shields.io/npm/v/special-card.svg?style=flat)](https://www.npmjs.com/package/special-card)
 [![npm downloads](https://img.shields.io/npm/dm/special-card.svg?style=flat)](https://www.npmjs.com/package/special-card)
 [![license](https://img.shields.io/github/license/LightInn/special-card.svg?style=flat)](https://github.com/LightInn/special-card/blob/master/LICENSE.md) 
-![Special Card Holo](/public/holo.gif "HoloCard Effet")
-![Special Card Pop](/public/pop.gif "PopCard Effet")
 
+![Special Card Holo](/public/holo.gif "HoloCard Effect")
+![Special Card Pop](/public/pop.gif "PopCard Effect")
 
-## description
+## Description
 
-La bibliothèque `special-card` offre une touche visuelle inédite à vos projets React.js. Avec ses composants `HoloCard` et `PopCard`, créez des cartes interactives stylisées qui ne manqueront pas d'engager vos utilisateurs.
+The `special-card` library offers a unique visual touch to your React.js projects. With its `HoloCard` and `PopCard` components, create stylized interactive cards that are sure to engage your users.
 
 ## Installation
 
-Pour installer la dernière version :
+To install the latest version:
 
 ```sh
 npm install special-card
@@ -23,7 +23,7 @@ npm install special-card
 
 ## Usage
 
-Importez et utilisez les composants dans votre projet :
+Import and use the components in your project:
 
 ```jsx
 import { HoloCard, PopCard } from 'special-card';
@@ -56,30 +56,30 @@ export default App;
 
 ### HoloCard
 
-| Prop           | Type   | Description                              | Default       |
-| -------------- | ------ | ---------------------------------------- | ------------- |
-| `imageSrc`     | string | Chemin de l'image de la carte            | Obligatoire   |
-| `imageShineSrc`| string | Chemin de l'image de l'effet de brillance| Obligatoire   |
-| `width`        | number | Largeur de la carte                      | Obligatoire   |
-| `height`       | number | Hauteur de la carte                      | Obligatoire   |
-| `hyp`          | number | Intensité de l'effet holographique       | `0.8`         |
-| `o`            | number | Opacité de l'effet de brillance          | `0.4`         |
-| `radius`       | number | Rayon des coins de la carte              | `16`          |
+| Prop           | Type   | Description                           | Default       |
+| -------------- | ------ | ------------------------------------- | ------------- |
+| `imageSrc`     | string | Path to the card image                | Required      |
+| `imageShineSrc`| string | Path to the shine effect image        | Required      |
+| `width`        | number | Width of the card                     | Required      |
+| `height`       | number | Height of the card                    | Required      |
+| `hyp`          | number | Intensity of the holographic effect   | `0.8`         |
+| `o`            | number | Opacity of the shine effect           | `0.4`         |
+| `radius`       | number | Radius of the card corners            | `16`          |
 
 ### PopCard
 
-| Prop             | Type   | Description                          | Default         |
-| ---------------- | ------ | ------------------------------------ | --------------- |
-| `backgroundImage`| string | Chemin de l'image de fond            | `/bg.png`       |
-| `titleImage`     | string | Chemin de l'image du titre           | `/title.png`    |
-| `hoverImage`     | string | Chemin de l'image au survol          | `/hover.png`    |
-| `link`           | string | Lien URL au clic sur la carte        | `https://brev.al`|
-| `height`         | number | Hauteur de la carte                  | `300`           |
-| `width`          | number | Largeur de la carte                  | `height / 1.5`  |
+| Prop             | Type   | Description                        | Default         |
+| ---------------- | ------ | ---------------------------------- | --------------- |
+| `backgroundImage`| string | Path to the background image       | `/bg.png`       |
+| `titleImage`     | string | Path to the title image            | `/title.png`    |
+| `hoverImage`     | string | Path to the hover image            | `/hover.png`    |
+| `link`           | string | URL link on card click             | `https://brev.al`|
+| `height`         | number | Height of the card                 | `300`           |
+| `width`          | number | Width of the card                  | `height / 1.5`  |
 
-## Exemple Complet
+## Complete Example
 
-Vous trouverez ci-dessous un exemple d'intégration de la bibliothèque :
+Below is an example of how to integrate the library:
 
 ```jsx
 // index.js
@@ -109,16 +109,18 @@ const App = () => (
 render(<App />, document.getElementById("root"));
 ```
 
-## Contribuer
+## Contributing
 
-Les contributions sont toujours les bienvenues. Veuillez cloner le dépôt et soumettre vos pull requests ici :
+Contributions are always welcome. Please clone the repository and submit your pull requests here:
 
 ```sh
 git clone https://github.com/LightInn/special-card.git
 ```
 
-## Licence
+## License
 
-Distribué sous la licence MIT. Voir `LICENSE` pour plus d'informations.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
+
+
