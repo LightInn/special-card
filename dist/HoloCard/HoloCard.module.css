@@ -1,4 +1,8 @@
-:root {
+.container {
+    perspective: 1000px; /* Ajustez cette valeur comme nécessaire */
+
+    box-sizing: border-box;
+
     --mx: 50%;
     --my: 50%;
     --o: 0.2;
@@ -7,15 +11,6 @@
     --hyp: 0.5;
     --shine: url("https://res.cloudinary.com/simey/image/upload/Dev/PokemonCards/illusion.webp");
     --radius: 16px;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-.container {
-    perspective: 1000px; /* Ajustez cette valeur comme nécessaire */
-
 }
 
 .card {

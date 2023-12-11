@@ -68,7 +68,7 @@ const HoloCard = ({
       transition: 'transform 0.5s cubic-bezier(0.34, 3.56, 0.64, 1)'
     });
   };
-  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("div", {
+  return /*#__PURE__*/_react.default.createElement("div", {
     className: _HoloCardModule.default.container
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: _HoloCardModule.default.card,
@@ -86,6 +86,6 @@ const HoloCard = ({
     alt: "Holo Style"
   }), /*#__PURE__*/_react.default.createElement("div", {
     className: _HoloCardModule.default.cardShinePlusAfterElement
-  })))));
+  }))));
 };
 var _default = exports.default = HoloCard;

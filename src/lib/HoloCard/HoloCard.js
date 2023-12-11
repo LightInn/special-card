@@ -67,17 +67,16 @@ const HoloCard = ({
 
 
     return (
-        <>
-            <div className={style.container}>
-                <div className={style.card} onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave}
-                     style={{width: width, height: height}}>
-                    <div className={style.cardFront} style={cardStyle}>
-                        <img src={imageSrc} alt="Holo Style"/>
-                        <div className={style.cardShinePlusAfterElement}></div>
-                    </div>
+        <div className={style.container}>
+            <div className={style.card} onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave}
+                 style={{width: width, height: height}}>
+                <div className={style.cardFront} style={cardStyle}>
+                    <img src={imageSrc} alt="Holo Style"/>
+                    <div className={style.cardShinePlusAfterElement}></div>
                 </div>
             </div>
-        </>
+        </div>
+
     );
 };
 
