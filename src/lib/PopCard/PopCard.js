@@ -7,15 +7,18 @@ const PopCard = ({
                      hoverImage = "/hover.png",
                      link = "https://brev.al",
                      height = 300,
-                     width
+                     width,
+                     alt = "Pop Card"
                  }) => (<>
-    <a href={link} target="_blank" className={style.link} style={{height: height, width: width ?? (height / 1.5)}}>
-        <div className={style.popCard} >
+    <a href={link} target="_blank" rel="noreferrer" className={style.link}
+       style={{height: height, width: width ?? (height / 1.5)}} aria-label={alt}>
+        <div className={style.popCard}>
             <div className={style.wrapper}>
-                <img src={backgroundImage} className={style.coverImage} aria-disabled={true}/>
+                <img src={backgroundImage} className={style.coverImage} alt={alt + " background"} width={width}
+                     height={height}/>
             </div>
-            <img src={titleImage} className={style.title} aria-disabled={true}/>
-            <img src={hoverImage} className={style.character} aria-disabled={true}/>
+            <img src={titleImage} className={style.title} alt={alt + " title"} width={width} height={height}/>
+            <img src={hoverImage} className={style.character} alt={alt + " hover"} width={width} height={height}/>
         </div>
     </a>
 </>);

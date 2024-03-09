@@ -1,7 +1,13 @@
 {
   "name": "special-card",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "private": false,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "babel src/lib -d dist"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.js",
   "devDependencies": {
     "@babel/cli": "^7.23.0",
     "@babel/core": "^7.23.2",
@@ -17,12 +23,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "babel src/lib -d dist"
-  },
-  "main": "dist/index.js",
-  "module": "dist/index.js",
   "files": [
     "dist",
     "README.md"

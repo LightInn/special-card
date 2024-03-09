@@ -2,35 +2,24 @@ import React, {useEffect, useState} from 'react';
 import style from './HoloCard.module.css'; // Make sure you link the correct CSS file path
 
 const HoloCard = ({
-                      imageSrc,
-                      imageShineSrc,
-                      width,
-                      height,
-                      hyp = 0.8,
-                      o = 0.4,
-                      radius = 16
+                      imageSrc, imageShineSrc, width, height, hyp = 0.8, o = 0.4, radius = 16
                   }) => {
 
     const [cardStyle, setCardStyle] = useState({});
 
-    useEffect(
-        () => {
-            setCardStyle(
-                {
-                    '--width': width,
-                    '--height': height,
-                    '--shine': `url(${imageShineSrc})`,
-                    '--posx': `50%`,
-                    '--posy': `50%`,
-                    '--hyp': hyp,
-                    '--o': o,
-                    '--radius': `${radius}px`,
-                    'transform': `rotateY(0deg) rotateX(0deg)`
-                }
-            )
-        }
-        , [width, height, imageShineSrc, hyp, o, radius]
-    )
+    useEffect(() => {
+        setCardStyle({
+            '--width': width,
+            '--height': height,
+            '--shine': `url(${imageShineSrc})`,
+            '--posx': `50%`,
+            '--posy': `50%`,
+            '--hyp': hyp,
+            '--o': o,
+            '--radius': `${radius}px`,
+            'transform': `rotateY(0deg) rotateX(0deg)`
+        })
+    }, [width, height, imageShineSrc, hyp, o, radius])
 
 
     // Mettre à jour les positions posX et posY basées sur la position du curseur de la souris
@@ -66,8 +55,7 @@ const HoloCard = ({
     };
 
 
-    return (
-        <div className={style.container}>
+    return (<div className={style.container}>
             <div className={style.card} onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave}
                  style={{width: width, height: height}}>
                 <div className={style.cardFront} style={cardStyle}>
