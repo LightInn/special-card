@@ -50,7 +50,6 @@ const HoloCard = ({
     // Calculer la rotation basée sur la position de la souris
     const rx = (posY - 50) / 50 * -15; // Réduisez la valeur pour diminuer la déformation
     const ry = (posX - 50) / 50 * 15; // Réduisez la valeur pour diminuer la déformation
-    console.log(rx, ry);
     setCardStyle({
       '--shine': `url(${imageShineSrc})`,
       '--posx': `${posX}%`,
