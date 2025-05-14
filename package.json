@@ -1,6 +1,6 @@
 {
   "name": "special-card",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "private": false,
   "scripts": {
     "start": "react-scripts start",
@@ -9,14 +9,14 @@
   "main": "dist/index.js",
   "module": "dist/index.js",
   "devDependencies": {
-    "@babel/cli": "^7.23.0",
-    "@babel/core": "^7.23.2",
-    "@babel/preset-env": "^7.23.5",
-    "@babel/preset-react": "^7.22.15",
-    "babel-cli": "^6.26.0",
-    "babel-plugin-inline-import": "^3.0.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "@babel/cli": "7.23.0",
+    "@babel/core": "7.23.2",
+    "@babel/preset-env": "7.23.5",
+    "@babel/preset-react": "7.22.15",
+    "babel-cli": "6.26.0",
+    "babel-plugin-inline-import": "3.0.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
     "react-scripts": "5.0.1"
   },
   "peerDependencies": {
