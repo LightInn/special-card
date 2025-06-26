@@ -10,7 +10,7 @@
   "module": "dist/index.js",
   "devDependencies": {
     "@babel/cli": "7.27.2",
-    "@babel/core": "7.27.4",
+    "@babel/core": "7.27.7",
     "@babel/preset-env": "7.27.2",
     "@babel/preset-react": "7.27.1",
     "babel-cli": "6.26.0",
