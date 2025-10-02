@@ -15,8 +15,8 @@
     "@babel/preset-react": "7.27.1",
     "babel-cli": "6.26.0",
     "babel-plugin-inline-import": "3.0.0",
-    "react": "19.1.1",
-    "react-dom": "19.1.1",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
     "react-scripts": "5.0.1"
   },
   "peerDependencies": {
