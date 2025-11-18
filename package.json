@@ -10,9 +10,9 @@
   "module": "dist/index.js",
   "devDependencies": {
     "@babel/cli": "7.28.3",
-    "@babel/core": "7.28.3",
-    "@babel/preset-env": "7.28.3",
-    "@babel/preset-react": "7.27.1",
+    "@babel/core": "7.28.5",
+    "@babel/preset-env": "7.28.5",
+    "@babel/preset-react": "7.28.5",
     "babel-cli": "6.26.0",
     "babel-plugin-inline-import": "3.0.0",
     "react": "19.1.1",
