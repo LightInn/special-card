@@ -27,8 +27,8 @@ devDependencies:
     specifier: 19.2.7
     version: 19.2.7
   react-dom:
-    specifier: 19.2.7
-    version: 19.2.7(react@19.2.7)
+    specifier: 19.2.8
+    version: 19.2.8(react@19.2.7)
   react-scripts:
     specifier: 5.0.1
     version: 5.0.1(@babel/plugin-syntax-flow@7.27.1)(@babel/plugin-transform-react-jsx@7.29.7)(eslint@8.57.1)(react@19.2.7)(typescript@5.8.3)
@@ -10866,10 +10866,10 @@ packages:
       - vue-template-compiler
     dev: true
 
-  /react-dom@19.2.7(react@19.2.7):
-    resolution: {integrity: sha512-t0BRVXvbiE/o20Hfw669rLbMCDWtYZLvmJigy2f0MxsXF+71pxhR3xOkspmsO8h3ZlNzyibAmtCa3l4lYKk6gQ==}
+  /react-dom@19.2.8(react@19.2.7):
+    resolution: {integrity: sha512-rVprimfGBG3DR+Tq0IQG2DT5PxKth1WIGDmj5yPmlzr4YBe7uyE+Du4oVqTDXZSHGGGXRtTJEGSSePyQCMBglQ==}
     peerDependencies:
-      react: ^19.2.7
+      react: ^19.2.8
     dependencies:
       react: 19.2.7
       scheduler: 0.27.0
