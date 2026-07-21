@@ -24,14 +24,14 @@ devDependencies:
     specifier: 3.0.0
     version: 3.0.0
   react:
-    specifier: 19.2.7
-    version: 19.2.7
+    specifier: 19.2.8
+    version: 19.2.8
   react-dom:
     specifier: 19.2.7
-    version: 19.2.7(react@19.2.7)
+    version: 19.2.7(react@19.2.8)
   react-scripts:
     specifier: 5.0.1
-    version: 5.0.1(@babel/plugin-syntax-flow@7.27.1)(@babel/plugin-transform-react-jsx@7.29.7)(eslint@8.57.1)(react@19.2.7)(typescript@5.8.3)
+    version: 5.0.1(@babel/plugin-syntax-flow@7.27.1)(@babel/plugin-transform-react-jsx@7.29.7)(eslint@8.57.1)(react@19.2.8)(typescript@5.8.3)
 
 packages:
 
@@ -10866,12 +10866,12 @@ packages:
       - vue-template-compiler
     dev: true
 
-  /react-dom@19.2.7(react@19.2.7):
+  /react-dom@19.2.7(react@19.2.8):
     resolution: {integrity: sha512-t0BRVXvbiE/o20Hfw669rLbMCDWtYZLvmJigy2f0MxsXF+71pxhR3xOkspmsO8h3ZlNzyibAmtCa3l4lYKk6gQ==}
     peerDependencies:
       react: ^19.2.7
     dependencies:
-      react: 19.2.7
+      react: 19.2.8
       scheduler: 0.27.0
     dev: true
 
@@ -10896,7 +10896,7 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /react-scripts@5.0.1(@babel/plugin-syntax-flow@7.27.1)(@babel/plugin-transform-react-jsx@7.29.7)(eslint@8.57.1)(react@19.2.7)(typescript@5.8.3):
+  /react-scripts@5.0.1(@babel/plugin-syntax-flow@7.27.1)(@babel/plugin-transform-react-jsx@7.29.7)(eslint@8.57.1)(react@19.2.8)(typescript@5.8.3):
     resolution: {integrity: sha512-8VAmEm/ZAwQzJ+GOMLbBsTdDKOpuZh7RPs0UymvBR2vRk4iZWCskjbFnxqjrzoIvlNNRZ3QJFx6/qDSi6zSnaQ==}
     engines: {node: '>=14.0.0'}
     hasBin: true
@@ -10940,7 +10940,7 @@ packages:
       postcss-normalize: 10.0.1(browserslist@4.23.0)(postcss@8.4.35)
       postcss-preset-env: 7.8.3(postcss@8.4.35)
       prompts: 2.4.2
-      react: 19.2.7
+      react: 19.2.8
       react-app-polyfill: 3.0.0
       react-dev-utils: 12.0.1(eslint@8.57.1)(typescript@5.8.3)(webpack@5.90.3)
       react-refresh: 0.11.0
@@ -10994,8 +10994,8 @@ packages:
       - webpack-plugin-serve
     dev: true
 
-  /react@19.2.7:
-    resolution: {integrity: sha512-HNe9WslTbXmFK8o8cmwgAeJFSBvt1bPdHCVKtaaV+WlAN36mpT4hcRpwbf3fY56ar2oIXzsBpOAiIRHAdY0OlQ==}
+  /react@19.2.8:
+    resolution: {integrity: sha512-PWaYA1L/q9u2u7xYQi+Y3L3Yfnie7XyLeaJICV1MGD6LprsBxcAqGjYyr0eY3p+QdsA+x/Irkt4Qif8D63+Sbw==}
     engines: {node: '>=0.10.0'}
     dev: true
 
